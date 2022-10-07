@@ -1,0 +1,23 @@
+[gd_resource type="Theme" load_steps=6 format=2]
+
+[sub_resource type="BitmapFont" id=7]
+
+[sub_resource type="StyleBoxFlat" id=5]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.623529, 0.635294, 0.227451, 0.580392 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.623529, 0.635294, 0.227451, 1 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.623529, 0.635294, 0.227451, 0.380392 )
+
+[resource]
+Button/colors/font_color = Color( 0.988235, 0.988235, 0.988235, 1 )
+Button/colors/font_color_pressed = Color( 0.92549, 0.992157, 0.160784, 1 )
+Button/fonts/font = SubResource( 7 )
+Button/styles/disabled = SubResource( 5 )
+Button/styles/hover = SubResource( 1 )
+Button/styles/normal = SubResource( 2 )
+Button/styles/pressed = SubResource( 6 )
